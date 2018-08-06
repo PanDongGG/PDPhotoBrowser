@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'PDPhotoBrowser_Example' do
+  pod 'PDPhotoBrowser', :path => '../'
+
+  target 'PDPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
