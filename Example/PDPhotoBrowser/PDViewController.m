@@ -7,7 +7,7 @@
 //
 
 #import "PDViewController.h"
-
+#import <PDPhotoBrowser/PDPhotoBrowserConfig.h>
 @interface PDViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
