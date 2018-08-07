@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     TODO: Add long description of the pod here.
     DESC
     
-    s.homepage         = 'hhttps://www.csdn.net'
+    s.homepage         = 'https://github.com/PanDongGG/PDPhotoBrowser.git'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '潘东' => '593736790@qq.com' }
